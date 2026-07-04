@@ -72,6 +72,18 @@ function calculateAge() {
     const birthYear = birthDate.getFullYear();
 
 const info = birthFacts[birthYear];
+document.getElementById("birthPopulation").textContent =
+info.population;
+const currentPopulation = 8.2;
+
+const birthPopulation =
+parseFloat(info.population);
+
+const increase =
+(currentPopulation - birthPopulation).toFixed(2);
+
+document.getElementById("populationGrowth").textContent =
+increase + " Billion";
 
 if(info){
 
@@ -84,6 +96,19 @@ document.getElementById("console").textContent = info.console;
 document.getElementById("os").textContent = info.os;
 document.getElementById("population").textContent = info.population;
 document.getElementById("technology").textContent = info.technology;
+const list = document.getElementById("generationList");
+
+list.innerHTML = "";
+
+if(info.generation){
+
+    info.generation.forEach(item=>{
+
+        list.innerHTML += `<li>${item}</li>`;
+
+    });
+
+}
 
 }else{
 
@@ -97,7 +122,8 @@ const ids = [
 "console",
 "os",
 "population",
-"technology"
+"technology",
+"generationList"
 
 ];
 

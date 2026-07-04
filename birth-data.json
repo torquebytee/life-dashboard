@@ -8,7 +8,13 @@
     "console": "Home Pong",
     "os": "CP/M",
     "population": "4.08 Billion",
-    "technology": "Microsoft was founded by Bill Gates and Paul Allen."
+    "technology": "Microsoft was founded by Bill Gates and Paul Allen.",
+    "generation":[
+"📺 Color television became common in homes.",
+"🕹️ Arcade gaming was entering its golden age.",
+"💻 Personal computers were just beginning to appear.",
+"🎵 Cassette players transformed portable music."
+]
   },
 
   "1976": {
@@ -20,7 +26,13 @@
     "console": "Fairchild Channel F",
     "os": "CP/M",
     "population": "4.15 Billion",
-    "technology": "Apple Computer was founded."
+    "technology": "Apple Computer was founded.",
+    "generation":[
+"📺 Color television became common in homes.",
+"🕹️ Arcade gaming was entering its golden age.",
+"💻 Personal computers were just beginning to appear.",
+"🎵 Cassette players transformed portable music."
+]
   },
 
   "1977": {
@@ -32,7 +44,13 @@
     "console": "Atari 2600",
     "os": "CP/M",
     "population": "4.23 Billion",
-    "technology": "The Atari 2600 was released."
+    "technology": "The Atari 2600 was released.",
+    "generation":[
+"📺 Color television became common in homes.",
+"🕹️ Arcade gaming was entering its golden age.",
+"💻 Personal computers were just beginning to appear.",
+"🎵 Cassette players transformed portable music."
+]
   },
 
   "1978": {
@@ -44,7 +62,13 @@
     "console": "Atari 2600",
     "os": "CP/M",
     "population": "4.31 Billion",
-    "technology": "The first GPS satellite was launched."
+    "technology": "The first GPS satellite was launched.",
+    "generation":[
+"📺 Color television became common in homes.",
+"🕹️ Arcade gaming was entering its golden age.",
+"💻 Personal computers were just beginning to appear.",
+"🎵 Cassette players transformed portable music."
+]
   },
 
   "1979": {
@@ -56,7 +80,13 @@
     "console": "Atari 2600",
     "os": "CP/M",
     "population": "4.38 Billion",
-    "technology": "Sony introduced the Walkman, changing portable music forever."
+    "technology": "Sony introduced the Walkman, changing portable music forever.",
+    "generation":[
+"📺 Color television became common in homes.",
+"🕹️ Arcade gaming was entering its golden age.",
+"💻 Personal computers were just beginning to appear.",
+"🎵 Cassette players transformed portable music."
+]
   },
   "1980": {
     "movie": "Star Wars: The Empire Strikes Back",
@@ -67,7 +97,13 @@
     "console": "Atari 2600",
     "os": "CP/M",
     "population": "4.46 Billion",
-    "technology": "CNN, the first 24-hour news channel, launched."
+    "technology": "CNN, the first 24-hour news channel, launched.",
+    "generation":[
+"💻 Home computers became increasingly popular.",
+"🕹️ Arcade gaming reached its peak.",
+"📼 VHS changed home entertainment forever.",
+"🎬 Blockbuster movies became a global phenomenon."
+]
   },
 
   "1981": {
@@ -79,7 +115,13 @@
     "console": "Atari 2600",
     "os": "MS-DOS",
     "population": "4.53 Billion",
-    "technology": "IBM introduced its first Personal Computer (IBM PC)."
+    "technology": "IBM introduced its first Personal Computer (IBM PC).",
+    "generation":[
+"💻 Home computers became increasingly popular.",
+"🕹️ Arcade gaming reached its peak.",
+"📼 VHS changed home entertainment forever.",
+"🎬 Blockbuster movies became a global phenomenon."
+]
   },
 
   "1982": {
@@ -91,7 +133,13 @@
     "console": "Atari 5200",
     "os": "MS-DOS",
     "population": "4.61 Billion",
-    "technology": "The Compact Disc (CD) was introduced."
+    "technology": "The Compact Disc (CD) was introduced.",
+    "generation":[
+"💻 Home computers became increasingly popular.",
+"🕹️ Arcade gaming reached its peak.",
+"📼 VHS changed home entertainment forever.",
+"🎬 Blockbuster movies became a global phenomenon."
+]
   },
 
   "1983": {
@@ -103,7 +151,13 @@
     "console": "Nintendo Entertainment System (Japan)",
     "os": "MS-DOS",
     "population": "4.69 Billion",
-    "technology": "The first commercial mobile phone was released."
+    "technology": "The first commercial mobile phone was released.",
+    "generation":[
+"💻 Home computers became increasingly popular.",
+"🕹️ Arcade gaming reached its peak.",
+"📼 VHS changed home entertainment forever.",
+"🎬 Blockbuster movies became a global phenomenon."
+]
   },
 
   "1984": {
@@ -115,7 +169,13 @@
     "console": "Nintendo Entertainment System",
     "os": "Mac System Software",
     "population": "4.77 Billion",
-    "technology": "Apple introduced the Macintosh computer."
+    "technology": "Apple introduced the Macintosh computer.",
+    "generation":[
+"💻 Home computers became increasingly popular.",
+"🕹️ Arcade gaming reached its peak.",
+"📼 VHS changed home entertainment forever.",
+"🎬 Blockbuster movies became a global phenomenon."
+]
   },
 
   "1985": {
@@ -127,7 +187,13 @@
     "console": "Nintendo Entertainment System",
     "os": "Windows 1.0",
     "population": "4.85 Billion",
-    "technology": "Microsoft released Windows 1.0."
+    "technology": "Microsoft released Windows 1.0.",
+    "generation":[
+"🖥️ Personal computers entered more homes.",
+"🎮 Nintendo revolutionized gaming.",
+"📼 Video rentals became weekend entertainment.",
+"📱 Mobile phones were introduced to the public."
+]
   },
 
   "1986": {
@@ -139,7 +205,13 @@
     "console": "Nintendo Entertainment System",
     "os": "Windows 1.0",
     "population": "4.93 Billion",
-    "technology": "The MIR Space Station was launched."
+    "technology": "The MIR Space Station was launched.",
+    "generation":[
+"🖥️ Personal computers entered more homes.",
+"🎮 Nintendo revolutionized gaming.",
+"📼 Video rentals became weekend entertainment.",
+"📱 Mobile phones were introduced to the public."
+]
   },
 
   "1987": {
@@ -151,7 +223,13 @@
     "console": "Nintendo Entertainment System",
     "os": "Windows 2.0",
     "population": "5.01 Billion",
-    "technology": "The GIF image format was introduced."
+    "technology": "The GIF image format was introduced.",
+    "generation":[
+"🖥️ Personal computers entered more homes.",
+"🎮 Nintendo revolutionized gaming.",
+"📼 Video rentals became weekend entertainment.",
+"📱 Mobile phones were introduced to the public."
+]
   },
 
   "1988": {
@@ -163,7 +241,13 @@
     "console": "Sega Mega Drive",
     "os": "Windows 2.1",
     "population": "5.09 Billion",
-    "technology": "The first transatlantic fiber-optic cable became operational."
+    "technology": "The first transatlantic fiber-optic cable became operational.",
+    "generation":[
+"🖥️ Personal computers entered more homes.",
+"🎮 Nintendo revolutionized gaming.",
+"📼 Video rentals became weekend entertainment.",
+"📱 Mobile phones were introduced to the public."
+]
   },
 
   "1989": {
@@ -175,7 +259,13 @@
     "console": "Game Boy",
     "os": "Windows 2.1",
     "population": "5.17 Billion",
-    "technology": "The World Wide Web was invented by Tim Berners-Lee."
+    "technology": "The World Wide Web was invented by Tim Berners-Lee.",
+    "generation":[
+"🖥️ Personal computers entered more homes.",
+"🎮 Nintendo revolutionized gaming.",
+"📼 Video rentals became weekend entertainment.",
+"📱 Mobile phones were introduced to the public."
+]
   },
 
     
@@ -188,7 +278,13 @@
     "console": "Super Nintendo Entertainment System (SNES)",
     "os": "Windows 3.0",
     "population": "5.32 Billion",
-    "technology": "The Hubble Space Telescope entered service."
+    "technology": "The Hubble Space Telescope entered service.",
+    "generation":[
+"🌐 The World Wide Web began connecting people.",
+"🎮 16-bit gaming became legendary.",
+"📞 Mobile phones slowly entered everyday life.",
+"💿 CDs replaced cassette tapes."
+]
   },
 
   "1991": {
@@ -200,7 +296,13 @@
     "console": "Sega Genesis",
     "os": "MS-DOS 5.0",
     "population": "5.40 Billion",
-    "technology": "The World Wide Web was opened to the public."
+    "technology": "The World Wide Web was opened to the public.",
+    "generation":[
+"🌐 The World Wide Web began connecting people.",
+"🎮 16-bit gaming became legendary.",
+"📞 Mobile phones slowly entered everyday life.",
+"💿 CDs replaced cassette tapes."
+]
   },
 
   "1992": {
@@ -212,7 +314,13 @@
     "console": "Super Nintendo Entertainment System (SNES)",
     "os": "Windows 3.1",
     "population": "5.48 Billion",
-    "technology": "SMS text messaging was introduced."
+    "technology": "SMS text messaging was introduced.",
+    "generation":[
+"🌐 The World Wide Web began connecting people.",
+"🎮 16-bit gaming became legendary.",
+"📞 Mobile phones slowly entered everyday life.",
+"💿 CDs replaced cassette tapes."
+]
   },
 
   "1993": {
@@ -224,7 +332,13 @@
     "console": "Sega Genesis",
     "os": "Windows NT 3.1",
     "population": "5.56 Billion",
-    "technology": "The first smartphone (IBM Simon) was introduced."
+    "technology": "The first smartphone (IBM Simon) was introduced.",
+    "generation":[
+"🌐 The World Wide Web began connecting people.",
+"🎮 16-bit gaming became legendary.",
+"📞 Mobile phones slowly entered everyday life.",
+"💿 CDs replaced cassette tapes."
+]
   },
 
   "1994": {
@@ -236,7 +350,13 @@
     "console": "PlayStation",
     "os": "Windows 3.11",
     "population": "5.64 Billion",
-    "technology": "Amazon was founded."
+    "technology": "Amazon was founded.",
+    "generation":[
+"🌐 The World Wide Web began connecting people.",
+"🎮 16-bit gaming became legendary.",
+"📞 Mobile phones slowly entered everyday life.",
+"💿 CDs replaced cassette tapes."
+]
   },
 
   "1995": {
@@ -248,7 +368,13 @@
     "console": "Sony PlayStation",
     "os": "Windows 95",
     "population": "5.73 Billion",
-    "technology": "Windows 95 launched, changing personal computing."
+    "technology": "Windows 95 launched, changing personal computing.",
+    "generation":[
+"🌐 The internet became part of everyday life.",
+"🎮 PlayStation changed gaming forever.",
+"💻 Windows became the standard home operating system.",
+"📱 Mobile phones became increasingly common."
+]
   },
 
   "1996": {
@@ -260,7 +386,13 @@
     "console": "Nintendo 64",
     "os": "Windows 95",
     "population": "5.81 Billion",
-    "technology": "DVD technology was introduced."
+    "technology": "DVD technology was introduced.",
+    "generation":[
+"🌐 The internet became part of everyday life.",
+"🎮 PlayStation changed gaming forever.",
+"💻 Windows became the standard home operating system.",
+"📱 Mobile phones became increasingly common."
+]
   },
 
   "1997": {
@@ -272,7 +404,13 @@
     "console": "Sony PlayStation",
     "os": "Windows 95",
     "population": "5.89 Billion",
-    "technology": "Wi-Fi (IEEE 802.11) standard was introduced."
+    "technology": "Wi-Fi (IEEE 802.11) standard was introduced.",
+    "generation":[
+"🌐 The internet became part of everyday life.",
+"🎮 PlayStation changed gaming forever.",
+"💻 Windows became the standard home operating system.",
+"📱 Mobile phones became increasingly common."
+]
   },
 
   "1998": {
@@ -284,7 +422,13 @@
     "console": "Nintendo 64",
     "os": "Windows 98",
     "population": "5.97 Billion",
-    "technology": "Google was founded."
+    "technology": "Google was founded.",
+    "generation":[
+"🌐 The internet became part of everyday life.",
+"🎮 PlayStation changed gaming forever.",
+"💻 Windows became the standard home operating system.",
+"📱 Mobile phones became increasingly common."
+]
   },
 
   "1999": {
@@ -296,7 +440,13 @@
     "console": "Dreamcast",
     "os": "Windows 98",
     "population": "6.05 Billion",
-    "technology": "Wi-Fi became commercially available."
+    "technology": "Wi-Fi became commercially available.",
+    "generation":[
+"🌐 The internet became part of everyday life.",
+"🎮 PlayStation changed gaming forever.",
+"💻 Windows became the standard home operating system.",
+"📱 Mobile phones became increasingly common."
+]
   },
 
   "2004": {
@@ -308,7 +458,13 @@
     "console": "PlayStation 2",
     "os": "Windows XP",
     "population": "6.4 Billion",
-    "technology": "Facebook launched publicly, beginning the social media revolution."
+    "technology": "Facebook launched publicly, beginning the social media revolution.",
+    "generation":[
+"🌐 Social media started connecting the world.",
+"🎥 YouTube transformed online video.",
+"🎮 HD gaming entered a new era.",
+"📱 Smartphones were evolving quickly."
+]
   }, 
   "2005": {
     "movie": "Harry Potter and the Goblet of Fire",
@@ -319,7 +475,13 @@
     "console": "Xbox 360",
     "os": "Windows XP",
     "population": "6.5 Billion",
-    "technology": "YouTube was launched, transforming online video forever."
+    "technology": "YouTube was launched, transforming online video forever.",
+    "generation":[
+"🌐 Social media started connecting the world.",
+"🎥 YouTube transformed online video.",
+"🎮 HD gaming entered a new era.",
+"📱 Smartphones were evolving quickly."
+]
   },
   "2006": {
     "movie": "Pirates of the Caribbean: Dead Man's Chest",
@@ -330,7 +492,13 @@
     "console": "Nintendo Wii",
     "os": "Windows XP",
     "population": "6.6 Billion",
-    "technology": "Twitter launched, introducing a new era of microblogging."
+    "technology": "Twitter launched, introducing a new era of microblogging.",
+    "generation":[
+"🌐 Social media started connecting the world.",
+"🎥 YouTube transformed online video.",
+"🎮 HD gaming entered a new era.",
+"📱 Smartphones were evolving quickly."
+]
   },
   "2007": {
     "movie": "Spider-Man 3",
@@ -341,7 +509,13 @@
     "console": "Nintendo Wii",
     "os": "Windows Vista",
     "population": "6.67 Billion",
-    "technology": "The first iPhone was introduced, revolutionizing smartphones."
+    "technology": "The first iPhone was introduced, revolutionizing smartphones.",
+    "generation":[
+"📱 The first iPhone changed smartphones forever.",
+"🌐 Facebook became globally popular.",
+"🎮 Online multiplayer gaming exploded.",
+"🤖 AI would later become one of the defining technologies of your generation."
+]
   },
 
   "2000": {
@@ -353,7 +527,13 @@
     "console": "PlayStation 2",
     "os": "Windows 2000",
     "population": "6.14 Billion",
-    "technology": "USB flash drives became widely adopted."
+    "technology": "USB flash drives became widely adopted.",
+    "generation":[
+"🌐 Broadband internet expanded rapidly.",
+"🎮 Online gaming started connecting millions.",
+"📱 Camera phones changed mobile technology.",
+"💬 Instant messaging became part of daily life."
+]
   },
 
   "2001": {
@@ -365,7 +545,13 @@
     "console": "Xbox",
     "os": "Windows XP",
     "population": "6.22 Billion",
-    "technology": "Wikipedia was launched."
+    "technology": "Wikipedia was launched.",
+    "generation":[
+"🌐 Broadband internet expanded rapidly.",
+"🎮 Online gaming started connecting millions.",
+"📱 Camera phones changed mobile technology.",
+"💬 Instant messaging became part of daily life."
+]
   },
 
   "2002": {
@@ -377,7 +563,13 @@
     "console": "Nintendo GameCube",
     "os": "Windows XP",
     "population": "6.30 Billion",
-    "technology": "Camera phones became mainstream."
+    "technology": "Camera phones became mainstream.",
+    "generation":[
+"🌐 Broadband internet expanded rapidly.",
+"🎮 Online gaming started connecting millions.",
+"📱 Camera phones changed mobile technology.",
+"💬 Instant messaging became part of daily life."
+]
   },
 
   "2003": {
@@ -389,7 +581,13 @@
     "console": "PlayStation 2",
     "os": "Windows XP",
     "population": "6.38 Billion",
-    "technology": "Skype launched worldwide."
+    "technology": "Skype launched worldwide.",
+    "generation":[
+"🌐 Broadband internet expanded rapidly.",
+"🎮 Online gaming started connecting millions.",
+"📱 Camera phones changed mobile technology.",
+"💬 Instant messaging became part of daily life."
+]
   },
 
   "2008": {
@@ -401,7 +599,13 @@
     "console": "PlayStation 3",
     "os": "Windows Vista",
     "population": "6.76 Billion",
-    "technology": "Android smartphones were introduced."
+    "technology": "Android smartphones were introduced.",
+    "generation":[
+"📱 Smartphones became everyday devices.",
+"📸 Social media reshaped communication.",
+"☁️ Cloud services became mainstream.",
+"🎮 Digital downloads transformed gaming."
+]
   },
 
   "2009": {
@@ -413,7 +617,13 @@
     "console": "Nintendo Wii",
     "os": "Windows 7",
     "population": "6.84 Billion",
-    "technology": "Bitcoin was launched."
+    "technology": "Bitcoin was launched.",
+    "generation":[
+"📱 Smartphones became everyday devices.",
+"📸 Social media reshaped communication.",
+"☁️ Cloud services became mainstream.",
+"🎮 Digital downloads transformed gaming."
+]
   },
 
   "2010": {
@@ -425,7 +635,13 @@
     "console": "Xbox 360",
     "os": "Windows 7",
     "population": "6.92 Billion",
-    "technology": "Instagram launched."
+    "technology": "Instagram launched.",
+    "generation":[
+"📱 Smartphones became everyday devices.",
+"📸 Social media reshaped communication.",
+"☁️ Cloud services became mainstream.",
+"🎮 Digital downloads transformed gaming."
+]
   },
 
   "2011": {
@@ -437,7 +653,13 @@
     "console": "PlayStation 3",
     "os": "Windows 7",
     "population": "7.0 Billion",
-    "technology": "Apple introduced Siri."
+    "technology": "Apple introduced Siri.",
+    "generation":[
+"📱 Smartphones became everyday devices.",
+"📸 Social media reshaped communication.",
+"☁️ Cloud services became mainstream.",
+"🎮 Digital downloads transformed gaming."
+]
   },
 
   "2012": {
@@ -449,7 +671,13 @@
     "console": "PlayStation 3",
     "os": "Windows 8",
     "population": "7.08 Billion",
-    "technology": "Curiosity rover landed on Mars."
+    "technology": "Curiosity rover landed on Mars.",
+    "generation":[
+"📱 Apps became central to everyday life.",
+"📺 Streaming replaced traditional television.",
+"🚗 Electric vehicles gained momentum.",
+"☁️ Cloud computing powered modern services."
+]
   },
 
   "2013": {
@@ -461,7 +689,13 @@
     "console": "PlayStation 4",
     "os": "Windows 8.1",
     "population": "7.16 Billion",
-    "technology": "PlayStation 4 was released."
+    "technology": "PlayStation 4 was released.",
+    "generation":[
+"📱 Apps became central to everyday life.",
+"📺 Streaming replaced traditional television.",
+"🚗 Electric vehicles gained momentum.",
+"☁️ Cloud computing powered modern services."
+]
   },
 
   "2014": {
@@ -473,7 +707,13 @@
     "console": "Xbox One",
     "os": "Windows 8.1",
     "population": "7.24 Billion",
-    "technology": "Apple introduced Apple Pay."
+    "technology": "Apple introduced Apple Pay.",
+    "generation":[
+"📱 Apps became central to everyday life.",
+"📺 Streaming replaced traditional television.",
+"🚗 Electric vehicles gained momentum.",
+"☁️ Cloud computing powered modern services."
+]
   },
 
   "2015": {
@@ -485,7 +725,13 @@
     "console": "PlayStation 4",
     "os": "Windows 10",
     "population": "7.32 Billion",
-    "technology": "Windows 10 launched."
+    "technology": "Windows 10 launched.",
+    "generation":[
+"📱 Apps became central to everyday life.",
+"📺 Streaming replaced traditional television.",
+"🚗 Electric vehicles gained momentum.",
+"☁️ Cloud computing powered modern services."
+]
   },
 
   "2016": {
@@ -497,7 +743,13 @@
     "console": "PlayStation 4 Pro",
     "os": "Windows 10",
     "population": "7.40 Billion",
-    "technology": "Pokémon GO became a global phenomenon."
+    "technology": "Pokémon GO became a global phenomenon.",
+    "generation":[
+"🤖 Artificial intelligence became increasingly visible.",
+"🎮 Battle Royale games became a global trend.",
+"📱 Face ID and bezel-less phones became common.",
+"🌍 5G networks began rolling out worldwide."
+]
   },
 
   "2017": {
@@ -509,7 +761,13 @@
     "console": "Nintendo Switch",
     "os": "Windows 10",
     "population": "7.48 Billion",
-    "technology": "Nintendo Switch launched."
+    "technology": "Nintendo Switch launched.",
+    "generation":[
+"🤖 Artificial intelligence became increasingly visible.",
+"🎮 Battle Royale games became a global trend.",
+"📱 Face ID and bezel-less phones became common.",
+"🌍 5G networks began rolling out worldwide."
+]
   },
 
   "2018": {
@@ -521,7 +779,13 @@
     "console": "Nintendo Switch",
     "os": "Windows 10",
     "population": "7.56 Billion",
-    "technology": "Foldable phone development accelerated."
+    "technology": "Foldable phone development accelerated.",
+    "generation":[
+"🤖 Artificial intelligence became increasingly visible.",
+"🎮 Battle Royale games became a global trend.",
+"📱 Face ID and bezel-less phones became common.",
+"🌍 5G networks began rolling out worldwide."
+]
   },
 
   "2019": {
@@ -533,7 +797,13 @@
     "console": "Nintendo Switch",
     "os": "Windows 10",
     "population": "7.67 Billion",
-    "technology": "5G rollout began worldwide."
+    "technology": "5G rollout began worldwide.",
+    "generation":[
+"🤖 Artificial intelligence became increasingly visible.",
+"🎮 Battle Royale games became a global trend.",
+"📱 Face ID and bezel-less phones became common.",
+"🌍 5G networks began rolling out worldwide."
+]
   },
 
   "2020": {
@@ -545,7 +815,13 @@
     "console": "PlayStation 5",
     "os": "Windows 10",
     "population": "7.79 Billion",
-    "technology": "Remote work and video conferencing surged."
+    "technology": "Remote work and video conferencing surged.",
+    "generation":[
+"🏠 Remote work and online learning became widespread.",
+"🤖 Generative AI transformed creativity and productivity.",
+"🚗 Electric vehicles became increasingly mainstream.",
+"🌍 AI assistants became part of everyday life."
+]
   },
 
   "2021": {
@@ -557,7 +833,13 @@
     "console": "Xbox Series X",
     "os": "Windows 11",
     "population": "7.88 Billion",
-    "technology": "Windows 11 launched."
+    "technology": "Windows 11 launched.",
+    "generation":[
+"🏠 Remote work and online learning became widespread.",
+"🤖 Generative AI transformed creativity and productivity.",
+"🚗 Electric vehicles became increasingly mainstream.",
+"🌍 AI assistants became part of everyday life."
+]
   },
 
   "2022": {
@@ -569,7 +851,13 @@
     "console": "PlayStation 5",
     "os": "Windows 11",
     "population": "7.95 Billion",
-    "technology": "Generative AI entered mainstream awareness."
+    "technology": "Generative AI entered mainstream awareness.",
+    "generation":[
+"🏠 Remote work and online learning became widespread.",
+"🤖 Generative AI transformed creativity and productivity.",
+"🚗 Electric vehicles became increasingly mainstream.",
+"🌍 AI assistants became part of everyday life."
+]
   },
 
   "2023": {
@@ -581,7 +869,13 @@
     "console": "PlayStation 5",
     "os": "Windows 11",
     "population": "8.05 Billion",
-    "technology": "AI assistants became mainstream."
+    "technology": "AI assistants became mainstream.",
+    "generation":[
+"🏠 Remote work and online learning became widespread.",
+"🤖 Generative AI transformed creativity and productivity.",
+"🚗 Electric vehicles became increasingly mainstream.",
+"🌍 AI assistants became part of everyday life."
+]
   },
 
   "2024": {
@@ -593,6 +887,12 @@
     "console": "PlayStation 5",
     "os": "Windows 11",
     "population": "8.12 Billion",
-    "technology": "AI PCs entered the consumer market."
+    "technology": "AI PCs entered the consumer market.",
+    "generation":[
+"🏠 Remote work and online learning became widespread.",
+"🤖 Generative AI transformed creativity and productivity.",
+"🚗 Electric vehicles became increasingly mainstream.",
+"🌍 AI assistants became part of everyday life."
+]
   }
 }

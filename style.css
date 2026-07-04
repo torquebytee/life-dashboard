@@ -756,3 +756,161 @@ TIME CAPSULE
     line-height:1.6;
 
 }
+/*==========================
+WORLD SNAPSHOT
+==========================*/
+
+.world-section{
+
+    max-width:1100px;
+
+    margin:120px auto;
+
+    padding:0 20px;
+
+}
+
+.world-section h2{
+
+    text-align:center;
+
+    margin-bottom:45px;
+
+    font-size:2.3rem;
+
+}
+
+.world-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:25px;
+
+}
+
+.world-card{
+
+    background:#171D33;
+
+    border:1px solid rgba(255,255,255,.05);
+
+    border-radius:22px;
+
+    padding:35px;
+
+    text-align:center;
+
+    transition:.35s;
+
+}
+
+.world-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#7C5CFC;
+
+    box-shadow:0 20px 40px rgba(124,92,252,.18);
+
+}
+
+.world-card span{
+
+    color:#94A3B8;
+
+    text-transform:uppercase;
+
+    letter-spacing:2px;
+
+    font-size:.85rem;
+
+}
+
+.world-card h3{
+
+    margin-top:18px;
+
+    font-size:2.2rem;
+
+}
+
+.full{
+
+    grid-column:1/-1;
+
+}
+
+@media(max-width:768px){
+
+    .world-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .full{
+
+        grid-column:auto;
+
+    }
+
+}
+.generation-card{
+
+    grid-column:1/-1;
+
+}
+
+.generation-card ul{
+
+    list-style:none;
+
+    margin-top:25px;
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:18px;
+
+}
+
+.generation-card li{
+
+    background:#202844;
+
+    border:1px solid rgba(255,255,255,.05);
+
+    border-radius:14px;
+
+    padding:18px;
+
+    line-height:1.7;
+
+    color:#CBD5E1;
+
+    transition:.3s;
+
+}
+
+.generation-card li:hover{
+
+    transform:translateY(-5px);
+
+    border-color:#7C5CFC;
+
+    background:#283354;
+
+}
+
+@media(max-width:768px){
+
+    .generation-card ul{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
