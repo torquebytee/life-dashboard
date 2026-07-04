@@ -1,6 +1,63 @@
+let birthFacts = {};
+fetch("birth-data.json")
+.then(response => response.json())
+.then(data => {
+
+    birthFacts = data;
+
+});
+function animateValue(id, endValue, duration = 1200) {
+
+    const element = document.getElementById(id);
+
+    const startValue = 0;
+
+    const startTime = performance.now();
+
+    function update(currentTime) {
+
+        const progress = Math.min((currentTime - startTime) / duration, 1);
+
+        const currentValue = Math.floor(progress * endValue);
+
+        element.textContent = currentValue.toLocaleString();
+
+        if (progress < 1) {
+
+            requestAnimationFrame(update);
+
+        }
+
+    }
+
+    requestAnimationFrame(update);
+
+}
+function revealCards(){
+
+    const cards = document.querySelectorAll(
+        ".card, .small-card, .stat-card"
+    );
+
+    // Remove previous animation
+    cards.forEach(card => card.classList.remove("show"));
+
+    // Replay animation
+    cards.forEach((card, index) => {
+
+        setTimeout(() => {
+
+            card.classList.add("show");
+
+        }, index * 150);
+
+    });
+
+}
 const button = document.getElementById("calculate");
 
 button.addEventListener("click", calculateAge);
+
 
 function calculateAge() {
 
@@ -12,6 +69,45 @@ function calculateAge() {
     }
 
     const birthDate = new Date(dob);
+    const birthYear = birthDate.getFullYear();
+
+const info = birthFacts[birthYear];
+
+if(info){
+
+document.getElementById("movie").textContent = info.movie;
+document.getElementById("song").textContent = info.song;
+document.getElementById("phone").textContent = info.phone;
+document.getElementById("car").textContent = info.car;
+document.getElementById("game").textContent = info.game;
+document.getElementById("console").textContent = info.console;
+document.getElementById("os").textContent = info.os;
+document.getElementById("population").textContent = info.population;
+document.getElementById("technology").textContent = info.technology;
+
+}else{
+
+const ids = [
+
+"movie",
+"song",
+"phone",
+"car",
+"game",
+"console",
+"os",
+"population",
+"technology"
+
+];
+
+ids.forEach(id=>{
+
+document.getElementById(id).textContent="Coming Soon";
+
+});
+
+}
     const today = new Date();
 
     let years = today.getFullYear() - birthDate.getFullYear();
@@ -43,8 +139,7 @@ function calculateAge() {
     const difference = today - birthDate;
     const totalDays = Math.floor(difference / (1000 * 60 * 60 * 24));
 
-    document.getElementById("days").textContent =
-        totalDays.toLocaleString();
+    animateValue("days", totalDays);
 
     // Birthday Countdown
     const nextBirthday = new Date(
@@ -69,28 +164,29 @@ function calculateAge() {
     // ==========================
 
     // Sunrises Seen
-    document.getElementById("sunrises").textContent =
-        totalDays.toLocaleString();
+    animateValue("sunrises", totalDays);
 
     // Estimated Heartbeats
-    document.getElementById("heartbeats").textContent =
-        Math.round(totalDays * 24 * 60 * 70).toLocaleString();
-
+    animateValue(
+    "heartbeats",
+    Math.round(totalDays * 24 * 60 * 70)
+);
     // Estimated Breaths
-    document.getElementById("breaths").textContent =
-        Math.round(totalDays * 24 * 60 * 16).toLocaleString();
+    animateValue(
+    "breaths",
+    Math.round(totalDays * 24 * 60 * 16)
+);
 
     // Trips Around the Sun
-    document.getElementById("earthTrips").textContent =
-        years;
+    animateValue("earthTrips", years);
 
     // Full Moons Witnessed
-    document.getElementById("moons").textContent =
-        Math.floor(totalDays / 29.53);
-
+    animateValue(
+    "moons",
+    Math.floor(totalDays / 29.53)
+);
     // Birthdays Celebrated
-    document.getElementById("birthdays").textContent =
-        years;
+    animateValue("birthdays", years);
 
     // ==========================
     // SHOW RESULTS
@@ -101,5 +197,13 @@ function calculateAge() {
     document.getElementById("results").scrollIntoView({
         behavior: "smooth"
     });
-
+revealCards();
 }
+document.getElementById("downloadCard")
+.addEventListener("click",()=>{
+
+    alert(
+"🚀 Share Card Export is coming in Life Dashboard V2.5!"
+    );
+
+});

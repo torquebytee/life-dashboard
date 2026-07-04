@@ -1,0 +1,598 @@
+{ 
+  "1975": {
+    "movie": "Jaws",
+    "song": "Love Will Keep Us Together - Captain & Tennille",
+    "phone": "Bell System Touch-Tone Telephone",
+    "car": "BMW 3 Series (E21)",
+    "game": "Gun Fight",
+    "console": "Home Pong",
+    "os": "CP/M",
+    "population": "4.08 Billion",
+    "technology": "Microsoft was founded by Bill Gates and Paul Allen."
+  },
+
+  "1976": {
+    "movie": "Rocky",
+    "song": "Silly Love Songs - Wings",
+    "phone": "Bell Touch-Tone Telephone",
+    "car": "Volkswagen Golf GTI",
+    "game": "Breakout",
+    "console": "Fairchild Channel F",
+    "os": "CP/M",
+    "population": "4.15 Billion",
+    "technology": "Apple Computer was founded."
+  },
+
+  "1977": {
+    "movie": "Star Wars",
+    "song": "Tonight's the Night - Rod Stewart",
+    "phone": "Bell Touch-Tone Telephone",
+    "car": "Pontiac Firebird Trans Am",
+    "game": "Space Wars",
+    "console": "Atari 2600",
+    "os": "CP/M",
+    "population": "4.23 Billion",
+    "technology": "The Atari 2600 was released."
+  },
+
+  "1978": {
+    "movie": "Grease",
+    "song": "Shadow Dancing - Andy Gibb",
+    "phone": "Bell Touch-Tone Telephone",
+    "car": "Porsche 928",
+    "game": "Space Invaders",
+    "console": "Atari 2600",
+    "os": "CP/M",
+    "population": "4.31 Billion",
+    "technology": "The first GPS satellite was launched."
+  },
+
+  "1979": {
+    "movie": "Kramer vs. Kramer",
+    "song": "My Sharona - The Knack",
+    "phone": "Motorola DynaTAC Prototype",
+    "car": "Mercedes-Benz G-Class",
+    "game": "Asteroids",
+    "console": "Atari 2600",
+    "os": "CP/M",
+    "population": "4.38 Billion",
+    "technology": "Sony introduced the Walkman, changing portable music forever."
+  },
+  "1980": {
+    "movie": "Star Wars: The Empire Strikes Back",
+    "song": "Call Me - Blondie",
+    "phone": "Motorola DynaTAC Prototype",
+    "car": "Audi Quattro",
+    "game": "Pac-Man",
+    "console": "Atari 2600",
+    "os": "CP/M",
+    "population": "4.46 Billion",
+    "technology": "CNN, the first 24-hour news channel, launched."
+  },
+
+  "1981": {
+    "movie": "Raiders of the Lost Ark",
+    "song": "Bette Davis Eyes - Kim Carnes",
+    "phone": "Motorola DynaTAC Prototype",
+    "car": "DeLorean DMC-12",
+    "game": "Donkey Kong",
+    "console": "Atari 2600",
+    "os": "MS-DOS",
+    "population": "4.53 Billion",
+    "technology": "IBM introduced its first Personal Computer (IBM PC)."
+  },
+
+  "1982": {
+    "movie": "E.T. the Extra-Terrestrial",
+    "song": "Physical - Olivia Newton-John",
+    "phone": "Nokia Mobira Senator",
+    "car": "Ferrari 288 GTO",
+    "game": "Pole Position",
+    "console": "Atari 5200",
+    "os": "MS-DOS",
+    "population": "4.61 Billion",
+    "technology": "The Compact Disc (CD) was introduced."
+  },
+
+  "1983": {
+    "movie": "Return of the Jedi",
+    "song": "Every Breath You Take - The Police",
+    "phone": "Motorola DynaTAC 8000X",
+    "car": "Peugeot 205 GTI",
+    "game": "Mario Bros.",
+    "console": "Nintendo Entertainment System (Japan)",
+    "os": "MS-DOS",
+    "population": "4.69 Billion",
+    "technology": "The first commercial mobile phone was released."
+  },
+
+  "1984": {
+    "movie": "Ghostbusters",
+    "song": "When Doves Cry - Prince",
+    "phone": "Motorola DynaTAC 8000X",
+    "car": "Ferrari Testarossa",
+    "game": "Tetris",
+    "console": "Nintendo Entertainment System",
+    "os": "Mac System Software",
+    "population": "4.77 Billion",
+    "technology": "Apple introduced the Macintosh computer."
+  },
+
+  "1985": {
+    "movie": "Back to the Future",
+    "song": "Careless Whisper - George Michael",
+    "phone": "Motorola DynaTAC 8000X",
+    "car": "BMW M3 (E30)",
+    "game": "Super Mario Bros.",
+    "console": "Nintendo Entertainment System",
+    "os": "Windows 1.0",
+    "population": "4.85 Billion",
+    "technology": "Microsoft released Windows 1.0."
+  },
+
+  "1986": {
+    "movie": "Top Gun",
+    "song": "That's What Friends Are For",
+    "phone": "Motorola DynaTAC 8000X",
+    "car": "Porsche 959",
+    "game": "The Legend of Zelda",
+    "console": "Nintendo Entertainment System",
+    "os": "Windows 1.0",
+    "population": "4.93 Billion",
+    "technology": "The MIR Space Station was launched."
+  },
+
+  "1987": {
+    "movie": "Fatal Attraction",
+    "song": "Walk Like an Egyptian - The Bangles",
+    "phone": "Nokia Cityman 900",
+    "car": "Ferrari F40",
+    "game": "Mega Man",
+    "console": "Nintendo Entertainment System",
+    "os": "Windows 2.0",
+    "population": "5.01 Billion",
+    "technology": "The GIF image format was introduced."
+  },
+
+  "1988": {
+    "movie": "Rain Man",
+    "song": "Faith - George Michael",
+    "phone": "Nokia Cityman",
+    "car": "Mazda MX-5 Miata",
+    "game": "Super Mario Bros. 3",
+    "console": "Sega Mega Drive",
+    "os": "Windows 2.1",
+    "population": "5.09 Billion",
+    "technology": "The first transatlantic fiber-optic cable became operational."
+  },
+
+  "1989": {
+    "movie": "Batman",
+    "song": "Look Away - Chicago",
+    "phone": "Motorola MicroTAC",
+    "car": "Lexus LS400",
+    "game": "Prince of Persia",
+    "console": "Game Boy",
+    "os": "Windows 2.1",
+    "population": "5.17 Billion",
+    "technology": "The World Wide Web was invented by Tim Berners-Lee."
+  },
+
+    
+"1990": {
+    "movie": "Ghost",
+    "song": "Hold On - Wilson Phillips",
+    "phone": "Motorola MicroTAC",
+    "car": "Honda NSX",
+    "game": "Super Mario World",
+    "console": "Super Nintendo Entertainment System (SNES)",
+    "os": "Windows 3.0",
+    "population": "5.32 Billion",
+    "technology": "The Hubble Space Telescope entered service."
+  },
+
+  "1991": {
+    "movie": "Terminator 2: Judgment Day",
+    "song": "(Everything I Do) I Do It for You - Bryan Adams",
+    "phone": "Motorola International 3200",
+    "car": "Bugatti EB110",
+    "game": "Sonic the Hedgehog",
+    "console": "Sega Genesis",
+    "os": "MS-DOS 5.0",
+    "population": "5.40 Billion",
+    "technology": "The World Wide Web was opened to the public."
+  },
+
+  "1992": {
+    "movie": "Aladdin",
+    "song": "End of the Road - Boyz II Men",
+    "phone": "Nokia 101",
+    "car": "McLaren F1",
+    "game": "Wolfenstein 3D",
+    "console": "Super Nintendo Entertainment System (SNES)",
+    "os": "Windows 3.1",
+    "population": "5.48 Billion",
+    "technology": "SMS text messaging was introduced."
+  },
+
+  "1993": {
+    "movie": "Jurassic Park",
+    "song": "I Will Always Love You - Whitney Houston",
+    "phone": "IBM Simon",
+    "car": "Toyota Supra MK4",
+    "game": "DOOM",
+    "console": "Sega Genesis",
+    "os": "Windows NT 3.1",
+    "population": "5.56 Billion",
+    "technology": "The first smartphone (IBM Simon) was introduced."
+  },
+
+  "1994": {
+    "movie": "The Lion King",
+    "song": "The Sign - Ace of Base",
+    "phone": "Motorola StarTAC",
+    "car": "Ferrari F355",
+    "game": "Donkey Kong Country",
+    "console": "PlayStation",
+    "os": "Windows 3.11",
+    "population": "5.64 Billion",
+    "technology": "Amazon was founded."
+  },
+
+  "1995": {
+    "movie": "Toy Story",
+    "song": "Gangsta's Paradise - Coolio",
+    "phone": "Motorola StarTAC",
+    "car": "BMW Z3",
+    "game": "Command & Conquer",
+    "console": "Sony PlayStation",
+    "os": "Windows 95",
+    "population": "5.73 Billion",
+    "technology": "Windows 95 launched, changing personal computing."
+  },
+
+  "1996": {
+    "movie": "Independence Day",
+    "song": "Macarena - Los del Río",
+    "phone": "Nokia 8110",
+    "car": "Porsche Boxster",
+    "game": "Super Mario 64",
+    "console": "Nintendo 64",
+    "os": "Windows 95",
+    "population": "5.81 Billion",
+    "technology": "DVD technology was introduced."
+  },
+
+  "1997": {
+    "movie": "Titanic",
+    "song": "Candle in the Wind 1997 - Elton John",
+    "phone": "Nokia 6110",
+    "car": "Mercedes-Benz A-Class",
+    "game": "Final Fantasy VII",
+    "console": "Sony PlayStation",
+    "os": "Windows 95",
+    "population": "5.89 Billion",
+    "technology": "Wi-Fi (IEEE 802.11) standard was introduced."
+  },
+
+  "1998": {
+    "movie": "Saving Private Ryan",
+    "song": "Too Close - Next",
+    "phone": "Nokia 5110",
+    "car": "Audi TT",
+    "game": "The Legend of Zelda: Ocarina of Time",
+    "console": "Nintendo 64",
+    "os": "Windows 98",
+    "population": "5.97 Billion",
+    "technology": "Google was founded."
+  },
+
+  "1999": {
+    "movie": "Star Wars: Episode I – The Phantom Menace",
+    "song": "Believe - Cher",
+    "phone": "Nokia 3210",
+    "car": "Honda S2000",
+    "game": "Counter-Strike",
+    "console": "Dreamcast",
+    "os": "Windows 98",
+    "population": "6.05 Billion",
+    "technology": "Wi-Fi became commercially available."
+  },
+
+  "2004": {
+    "movie": "Shrek 2",
+    "song": "Yeah! - Usher ft. Lil Jon & Ludacris",
+    "phone": "Nokia 7610",
+    "car": "Toyota Prius",
+    "game": "Grand Theft Auto: San Andreas",
+    "console": "PlayStation 2",
+    "os": "Windows XP",
+    "population": "6.4 Billion",
+    "technology": "Facebook launched publicly, beginning the social media revolution."
+  }, 
+  "2005": {
+    "movie": "Harry Potter and the Goblet of Fire",
+    "song": "We Belong Together - Mariah Carey",
+    "phone": "Motorola RAZR V3",
+    "car": "Bugatti Veyron",
+    "game": "Resident Evil 4",
+    "console": "Xbox 360",
+    "os": "Windows XP",
+    "population": "6.5 Billion",
+    "technology": "YouTube was launched, transforming online video forever."
+  },
+  "2006": {
+    "movie": "Pirates of the Caribbean: Dead Man's Chest",
+    "song": "Irreplaceable - Beyoncé",
+    "phone": "Nokia N73",
+    "car": "Audi R8",
+    "game": "The Elder Scrolls IV: Oblivion",
+    "console": "Nintendo Wii",
+    "os": "Windows XP",
+    "population": "6.6 Billion",
+    "technology": "Twitter launched, introducing a new era of microblogging."
+  },
+  "2007": {
+    "movie": "Spider-Man 3",
+    "song": "Irreplaceable - Beyoncé",
+    "phone": "Apple iPhone (1st Generation)",
+    "car": "Nissan GT-R (R35)",
+    "game": "Call of Duty 4: Modern Warfare",
+    "console": "Nintendo Wii",
+    "os": "Windows Vista",
+    "population": "6.67 Billion",
+    "technology": "The first iPhone was introduced, revolutionizing smartphones."
+  },
+
+  "2000": {
+    "movie": "Mission: Impossible 2",
+    "song": "Breathe - Faith Hill",
+    "phone": "Nokia 3310",
+    "car": "Toyota Prius",
+    "game": "The Sims",
+    "console": "PlayStation 2",
+    "os": "Windows 2000",
+    "population": "6.14 Billion",
+    "technology": "USB flash drives became widely adopted."
+  },
+
+  "2001": {
+    "movie": "Harry Potter and the Philosopher's Stone",
+    "song": "Hanging by a Moment - Lifehouse",
+    "phone": "Nokia 8250",
+    "car": "Mini Cooper (New Generation)",
+    "game": "Halo: Combat Evolved",
+    "console": "Xbox",
+    "os": "Windows XP",
+    "population": "6.22 Billion",
+    "technology": "Wikipedia was launched."
+  },
+
+  "2002": {
+    "movie": "The Lord of the Rings: The Two Towers",
+    "song": "How You Remind Me - Nickelback",
+    "phone": "Nokia 7650",
+    "car": "BMW 7 Series (E65)",
+    "game": "Grand Theft Auto: Vice City",
+    "console": "Nintendo GameCube",
+    "os": "Windows XP",
+    "population": "6.30 Billion",
+    "technology": "Camera phones became mainstream."
+  },
+
+  "2003": {
+    "movie": "The Lord of the Rings: The Return of the King",
+    "song": "In da Club - 50 Cent",
+    "phone": "Nokia 1100",
+    "car": "Rolls-Royce Phantom",
+    "game": "Call of Duty",
+    "console": "PlayStation 2",
+    "os": "Windows XP",
+    "population": "6.38 Billion",
+    "technology": "Skype launched worldwide."
+  },
+
+  "2008": {
+    "movie": "The Dark Knight",
+    "song": "Low - Flo Rida ft. T-Pain",
+    "phone": "iPhone 3G",
+    "car": "Tesla Roadster",
+    "game": "Grand Theft Auto IV",
+    "console": "PlayStation 3",
+    "os": "Windows Vista",
+    "population": "6.76 Billion",
+    "technology": "Android smartphones were introduced."
+  },
+
+  "2009": {
+    "movie": "Avatar",
+    "song": "Boom Boom Pow - Black Eyed Peas",
+    "phone": "iPhone 3GS",
+    "car": "Bugatti Veyron Super Sport",
+    "game": "Minecraft",
+    "console": "Nintendo Wii",
+    "os": "Windows 7",
+    "population": "6.84 Billion",
+    "technology": "Bitcoin was launched."
+  },
+
+  "2010": {
+    "movie": "Toy Story 3",
+    "song": "Tik Tok - Kesha",
+    "phone": "iPhone 4",
+    "car": "Nissan Leaf",
+    "game": "Red Dead Redemption",
+    "console": "Xbox 360",
+    "os": "Windows 7",
+    "population": "6.92 Billion",
+    "technology": "Instagram launched."
+  },
+
+  "2011": {
+    "movie": "Harry Potter and the Deathly Hallows Part 2",
+    "song": "Rolling in the Deep - Adele",
+    "phone": "iPhone 4S",
+    "car": "Lamborghini Aventador",
+    "game": "The Elder Scrolls V: Skyrim",
+    "console": "PlayStation 3",
+    "os": "Windows 7",
+    "population": "7.0 Billion",
+    "technology": "Apple introduced Siri."
+  },
+
+  "2012": {
+    "movie": "The Avengers",
+    "song": "Somebody That I Used to Know - Gotye",
+    "phone": "iPhone 5",
+    "car": "Tesla Model S",
+    "game": "Far Cry 3",
+    "console": "PlayStation 3",
+    "os": "Windows 8",
+    "population": "7.08 Billion",
+    "technology": "Curiosity rover landed on Mars."
+  },
+
+  "2013": {
+    "movie": "Frozen",
+    "song": "Blurred Lines - Robin Thicke",
+    "phone": "iPhone 5S",
+    "car": "McLaren P1",
+    "game": "Grand Theft Auto V",
+    "console": "PlayStation 4",
+    "os": "Windows 8.1",
+    "population": "7.16 Billion",
+    "technology": "PlayStation 4 was released."
+  },
+
+  "2014": {
+    "movie": "Guardians of the Galaxy",
+    "song": "Happy - Pharrell Williams",
+    "phone": "iPhone 6",
+    "car": "BMW i8",
+    "game": "Destiny",
+    "console": "Xbox One",
+    "os": "Windows 8.1",
+    "population": "7.24 Billion",
+    "technology": "Apple introduced Apple Pay."
+  },
+
+  "2015": {
+    "movie": "Star Wars: The Force Awakens",
+    "song": "Uptown Funk - Mark Ronson ft. Bruno Mars",
+    "phone": "iPhone 6S",
+    "car": "Ford GT",
+    "game": "The Witcher 3",
+    "console": "PlayStation 4",
+    "os": "Windows 10",
+    "population": "7.32 Billion",
+    "technology": "Windows 10 launched."
+  },
+
+  "2016": {
+    "movie": "Captain America: Civil War",
+    "song": "One Dance - Drake",
+    "phone": "Google Pixel",
+    "car": "Bugatti Chiron",
+    "game": "Pokémon GO",
+    "console": "PlayStation 4 Pro",
+    "os": "Windows 10",
+    "population": "7.40 Billion",
+    "technology": "Pokémon GO became a global phenomenon."
+  },
+
+  "2017": {
+    "movie": "Star Wars: The Last Jedi",
+    "song": "Shape of You - Ed Sheeran",
+    "phone": "iPhone X",
+    "car": "Tesla Model 3",
+    "game": "Fortnite Battle Royale",
+    "console": "Nintendo Switch",
+    "os": "Windows 10",
+    "population": "7.48 Billion",
+    "technology": "Nintendo Switch launched."
+  },
+
+  "2018": {
+    "movie": "Avengers: Infinity War",
+    "song": "God's Plan - Drake",
+    "phone": "Samsung Galaxy Note 9",
+    "car": "McLaren Senna",
+    "game": "Red Dead Redemption 2",
+    "console": "Nintendo Switch",
+    "os": "Windows 10",
+    "population": "7.56 Billion",
+    "technology": "Foldable phone development accelerated."
+  },
+
+  "2019": {
+    "movie": "Avengers: Endgame",
+    "song": "Old Town Road - Lil Nas X",
+    "phone": "iPhone 11",
+    "car": "Tesla Model Y",
+    "game": "Sekiro: Shadows Die Twice",
+    "console": "Nintendo Switch",
+    "os": "Windows 10",
+    "population": "7.67 Billion",
+    "technology": "5G rollout began worldwide."
+  },
+
+  "2020": {
+    "movie": "Tenet",
+    "song": "Blinding Lights - The Weeknd",
+    "phone": "iPhone 12",
+    "car": "Tesla Model Y",
+    "game": "Cyberpunk 2077",
+    "console": "PlayStation 5",
+    "os": "Windows 10",
+    "population": "7.79 Billion",
+    "technology": "Remote work and video conferencing surged."
+  },
+
+  "2021": {
+    "movie": "Spider-Man: No Way Home",
+    "song": "Drivers License - Olivia Rodrigo",
+    "phone": "iPhone 13",
+    "car": "Rivian R1T",
+    "game": "Resident Evil Village",
+    "console": "Xbox Series X",
+    "os": "Windows 11",
+    "population": "7.88 Billion",
+    "technology": "Windows 11 launched."
+  },
+
+  "2022": {
+    "movie": "Top Gun: Maverick",
+    "song": "As It Was - Harry Styles",
+    "phone": "iPhone 14 Pro",
+    "car": "Lucid Air",
+    "game": "Elden Ring",
+    "console": "PlayStation 5",
+    "os": "Windows 11",
+    "population": "7.95 Billion",
+    "technology": "Generative AI entered mainstream awareness."
+  },
+
+  "2023": {
+    "movie": "Barbie",
+    "song": "Flowers - Miley Cyrus",
+    "phone": "iPhone 15 Pro",
+    "car": "Tesla Cybertruck",
+    "game": "Baldur's Gate 3",
+    "console": "PlayStation 5",
+    "os": "Windows 11",
+    "population": "8.05 Billion",
+    "technology": "AI assistants became mainstream."
+  },
+
+  "2024": {
+    "movie": "Inside Out 2",
+    "song": "Beautiful Things - Benson Boone",
+    "phone": "iPhone 16",
+    "car": "Tesla Cybertruck",
+    "game": "Helldivers 2",
+    "console": "PlayStation 5",
+    "os": "Windows 11",
+    "population": "8.12 Billion",
+    "technology": "AI PCs entered the consumer market."
+  }
+}

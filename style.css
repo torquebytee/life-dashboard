@@ -431,3 +431,328 @@ RESPONSIVE
     }
 
 }
+/* ===========================
+CARD REVEAL ANIMATION
+=========================== */
+
+.card,
+.small-card,
+.stat-card{
+
+    opacity:0;
+
+    transform:translateY(30px);
+
+    transition:
+        opacity .6s ease,
+        transform .6s ease;
+
+}
+
+.card.show,
+.small-card.show,
+.stat-card.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+/* ===========================
+LIFE PROGRESS
+=========================== */
+
+.progress-card{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:40px;
+
+}
+
+.progress-circle{
+
+    position:relative;
+
+    width:240px;
+
+    height:240px;
+
+}
+
+.progress-circle svg{
+
+    transform:rotate(-90deg);
+
+}
+
+.bg-circle{
+
+    fill:none;
+
+    stroke:#24304D;
+
+    stroke-width:12;
+
+}
+
+.progress-circle-fill{
+
+    fill:none;
+
+    stroke:#7C5CFC;
+
+    stroke-width:12;
+
+    stroke-linecap:round;
+
+    stroke-dasharray:565;
+
+    stroke-dashoffset:565;
+
+    transition:1.5s ease;
+
+}
+
+.progress-text{
+
+    position:absolute;
+
+    inset:0;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.progress-text h2{
+
+    font-size:3rem;
+
+}
+
+.progress-text span{
+
+    color:#94A3B8;
+
+}
+
+.progress-description{
+
+    margin-top:30px;
+
+    color:#94A3B8;
+
+}
+.download-section{
+
+    margin-top:70px;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+#downloadCard{
+
+    background:#7C5CFC;
+
+    color:white;
+
+    border:none;
+
+    padding:18px 34px;
+
+    border-radius:14px;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+#downloadCard:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 20px 40px rgba(124,92,252,.35);
+
+}
+.birth-section{
+
+    max-width:1100px;
+
+    margin:120px auto;
+
+    padding:0 20px;
+
+}
+
+.birth-section h2{
+
+    text-align:center;
+
+    font-size:2.5rem;
+
+}
+
+.birth-subtitle{
+
+    text-align:center;
+
+    color:#94A3B8;
+
+    margin:15px 0 50px;
+
+}
+
+/* ===========================
+TIME CAPSULE
+=========================== */
+
+.birth-section{
+
+    max-width:1200px;
+
+    margin:120px auto;
+
+    padding:0 20px;
+
+}
+
+.birth-section h2{
+
+    text-align:center;
+
+    font-size:2.8rem;
+
+}
+
+.birth-subtitle{
+
+    text-align:center;
+
+    color:#94A3B8;
+
+    margin:18px 0 60px;
+
+}
+
+.capsule-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+    margin-top:40px;
+
+}
+@media(max-width:1200px){
+
+    .capsule-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media(max-width:700px){
+
+    .capsule-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+.capsule-card{
+
+    background:#171D33;
+
+    border:1px solid rgba(255,255,255,.05);
+
+    border-radius:22px;
+
+    padding:32px;
+
+    transition:.35s;
+
+}
+
+.capsule-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#7C5CFC;
+
+    box-shadow:0 20px 45px rgba(124,92,252,.18);
+
+}
+
+.capsule-card h3{
+
+    margin-bottom:25px;
+
+    color:#7DD3FC;
+
+    font-size:1.3rem;
+
+}
+
+.capsule-item{
+
+    margin-bottom:24px;
+
+}
+
+.capsule-item:last-child{
+
+    margin-bottom:0;
+
+}
+
+.capsule-item span{
+
+    display:block;
+
+    color:#94A3B8;
+
+    font-size:.82rem;
+
+    text-transform:uppercase;
+
+    letter-spacing:1.5px;
+
+    margin-bottom:8px;
+
+}
+
+.capsule-item p{
+
+    font-size:1.1rem;
+
+    font-weight:600;
+
+    line-height:1.6;
+
+}
