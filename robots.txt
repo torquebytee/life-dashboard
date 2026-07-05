@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://torquebytee.github.io/life-dashboard/sitemap.xml
