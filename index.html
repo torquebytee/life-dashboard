@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Life Dashboard | TorqueBytee</title>
+    <title>Life Dashboard | TORQUEBYTEE</title>
 
     <meta name="description"
-        content="Discover your exact age, life progress, birthday countdown and fascinating life statistics with Life Dashboard.">
+        content="Discover your exact age, birthday countdown, life journey, world statistics and nostalgic memories from the year you were born.">
+
+    <meta name="theme-color" content="#0B0F19">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
@@ -25,23 +28,33 @@
 
 <body>
 
-<!-- ================= HERO ================= -->
+<!-- =======================================================
+HERO
+======================================================= -->
 
 <section class="hero">
 
     <div class="container">
 
-        <p class="logo">POWERED BY TORQUEBYTEE</p>
+        <p class="logo">
+            POWERED BY TORQUEBYTEE
+        </p>
 
-        <h1>Life Dashboard</h1>
+        <h1>
+            Life Dashboard
+        </h1>
 
         <p class="subtitle">
             Know More Than Your Age.
         </p>
 
         <p class="description">
-            Discover your exact age, birthday countdown,
-            and fascinating statistics about your life.
+
+            Discover your exact age,
+            birthday countdown,
+            fascinating life statistics,
+            and a nostalgic journey back to the year you were born.
+
         </p>
 
         <div class="calculator-box">
@@ -51,7 +64,9 @@
                 id="dob">
 
             <button id="calculate">
+
                 Explore My Life
+
             </button>
 
         </div>
@@ -60,59 +75,101 @@
 
 </section>
 
+<!-- =======================================================
+RESULTS
+======================================================= -->
 
-
-<!-- ================= RESULTS ================= -->
-
-<section
-class="results"
-id="results">
+<section id="results" class="results">
 
 <div class="dashboard">
 
-<h2>Your Life Dashboard</h2>
+<h2>
+
+Your Life Dashboard
+
+</h2>
 
 <p class="dashboard-subtitle">
+
 Every moment tells a story.
+
 </p>
 
+<!-- =======================================================
+AGE OVERVIEW
+======================================================= -->
 
-
-<!-- AGE OVERVIEW -->
-
-<div class="dashboard-section">
+<section class="dashboard-section">
 
 <h3 class="section-title">
+
 👶 Age Overview
+
 </h3>
 
 <div class="age-layout">
 
-    <div class="card hero-card">
-        <span>Current Age</span>
-        <h4 id="age">--</h4>
-    </div>
+<div class="card hero-card">
 
-    <div class="age-bottom">
+<span>
 
-        <div class="small-card">
-            <span>Days Alive</span>
-            <h4 id="days">--</h4>
-        </div>
+Current Age
 
-        <div class="small-card">
-            <span>Next Birthday</span>
-            <h4 id="birthday">--</h4>
-        </div>
+</span>
 
-    </div>
+<h4 id="age">
+
+--
+
+</h4>
 
 </div>
 
+<div class="age-bottom">
 
-<!-- LIFE JOURNEY -->
+<div class="small-card">
 
-<div class="dashboard-section">
+<span>
+
+Days Alive
+
+</span>
+
+<h4 id="days">
+
+--
+
+</h4>
+
+</div>
+
+<div class="small-card">
+
+<span>
+
+Next Birthday
+
+</span>
+
+<h4 id="birthday">
+
+--
+
+</h4>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- =======================================================
+LIFE JOURNEY
+======================================================= -->
+
+<section class="dashboard-section">
 
 <h3 class="section-title">
 
@@ -124,55 +181,106 @@ Every moment tells a story.
 
 <div class="stat-card">
 
-<h3>🌞 Sunrises Seen</h3>
+<h3>
 
-<p id="sunrises"></p>
+🌞 Sunrises Seen
 
-</div>
+</h3>
 
-<div class="stat-card">
+<p id="sunrises">
 
-<h3>❤️ Estimated Heartbeats</h3>
+--
 
-<p id="heartbeats"></p>
-
-</div>
-
-<div class="stat-card">
-
-<h3>🫁 Breaths Taken</h3>
-
-<p id="breaths"></p>
+</p>
 
 </div>
 
 <div class="stat-card">
 
-<h3>🌍 Trips Around the Sun</h3>
+<h3>
 
-<p id="earthTrips"></p>
+❤️ Estimated Heartbeats
+
+</h3>
+
+<p id="heartbeats">
+
+--
+
+</p>
 
 </div>
 
 <div class="stat-card">
 
-<h3>🌙 Full Moons Witnessed</h3>
+<h3>
 
-<p id="moons"></p>
+🫁 Breaths Taken
+
+</h3>
+
+<p id="breaths">
+
+--
+
+</p>
 
 </div>
 
 <div class="stat-card">
 
-<h3>🎂 Birthdays Celebrated</h3>
+<h3>
 
-<p id="birthdays"></p>
+🌍 Trips Around the Sun
+
+</h3>
+
+<p id="earthTrips">
+
+--
+
+</p>
+
+</div>
+
+<div class="stat-card">
+
+<h3>
+
+🌙 Full Moons Witnessed
+
+</h3>
+
+<p id="moons">
+
+--
+
+</p>
+
+</div>
+
+<div class="stat-card">
+
+<h3>
+
+🎂 Birthdays Celebrated
+
+</h3>
+
+<p id="birthdays">
+
+--
+
+</p>
 
 </div>
 
 </div>
 
-</div>
+</section>
+<!-- =======================================================
+TIME CAPSULE
+======================================================= -->
 
 <section class="birth-section">
 
@@ -191,13 +299,19 @@ Every moment tells a story.
             <h3>🎬 Entertainment</h3>
 
             <div class="capsule-item">
+
                 <span>Top Movie</span>
-                <p id="movie"></p>
+
+                <p id="movie">--</p>
+
             </div>
 
             <div class="capsule-item">
+
                 <span>Hit Song</span>
-                <p id="song"></p>
+
+                <p id="song">--</p>
+
             </div>
 
         </div>
@@ -209,18 +323,27 @@ Every moment tells a story.
             <h3>💻 Technology</h3>
 
             <div class="capsule-item">
+
                 <span>Popular Phone</span>
-                <p id="phone"></p>
+
+                <p id="phone">--</p>
+
             </div>
 
             <div class="capsule-item">
+
                 <span>Operating System</span>
-                <p id="os"></p>
+
+                <p id="os">--</p>
+
             </div>
 
             <div class="capsule-item">
+
                 <span>Tech Milestone</span>
-                <p id="technology"></p>
+
+                <p id="technology">--</p>
+
             </div>
 
         </div>
@@ -232,13 +355,19 @@ Every moment tells a story.
             <h3>🎮 Gaming</h3>
 
             <div class="capsule-item">
+
                 <span>Popular Game</span>
-                <p id="game"></p>
+
+                <p id="game">--</p>
+
             </div>
 
             <div class="capsule-item">
+
                 <span>Console</span>
-                <p id="console"></p>
+
+                <p id="console">--</p>
+
             </div>
 
         </div>
@@ -247,16 +376,22 @@ Every moment tells a story.
 
         <div class="capsule-card">
 
-            <h3>🌍 World Snapshot</h3>
+            <h3>🚗 World Snapshot</h3>
 
             <div class="capsule-item">
+
                 <span>Iconic Car</span>
-                <p id="car"></p>
+
+                <p id="car">--</p>
+
             </div>
 
             <div class="capsule-item">
+
                 <span>World Population</span>
-                <p id="population"></p>
+
+                <p id="population">--</p>
+
             </div>
 
         </div>
@@ -269,6 +404,8 @@ Every moment tells a story.
 
             <ul id="generationList">
 
+                <li>Explore your dashboard to reveal your generation.</li>
+
             </ul>
 
         </div>
@@ -276,9 +413,20 @@ Every moment tells a story.
     </div>
 
 </section>
-<section class="world-section reveal">
 
-    <h2>🌍 World Snapshot</h2>
+<!-- =======================================================
+WORLD SNAPSHOT
+======================================================= -->
+
+<section class="world-section">
+
+    <h2>🌎 World Since You Were Born</h2>
+
+    <p class="birth-subtitle">
+
+        See how the world has changed during your lifetime.
+
+    </p>
 
     <div class="world-grid">
 
@@ -310,36 +458,141 @@ Every moment tells a story.
 
 </section>
 
-<div class="download-section">
 
-    <button id="downloadCard">
 
-        📸 Download My Dashboard
 
-    </button>
+<!-- =======================================================
+COMMUNITY
+======================================================= -->
+
+<section class="community-section">
+
+<h2>🚀 Join the Community</h2>
+
+<p class="community-subtitle">
+Loved your dashboard? More exciting features are coming soon.
+</p>
+
+<div class="community-grid">
+
+<div class="community-card">
+
+    <h3>🚀 Share Dashboard</h3>
+
+    <p>
+        A beautifully designed share card is currently under development.
+        It will let you share your Life Dashboard across social media with a premium TorqueBytee design.
+    </p>
+
+    <button class="community-btn" disabled>
+       Share Card • Coming Soon
+</button>
 
 </div>
 
+        <!-- Contact -->
 
-<!-- FOOTER -->
+        <div class="community-card">
+
+            <h3>💻 Need a Website?</h3>
+
+            <p>
+
+                Looking for a modern portfolio,
+                dashboard,
+                business website,
+            
+                or custom web application?
+
+            </p>
+
+            <div class="contact-info">
+
+                <p>
+
+                    <strong>Developer</strong>
+
+                    <br>
+
+                    Shareyar
+
+                </p>
+
+                <p>
+
+                    Let's turn your idea into a premium web experience.
+
+                </p>
+
+            </div>
+
+            <a
+
+                href="mailto:kavindurairaj06@gmail.com?subject=Website%20Development%20Inquiry"
+
+                class="community-btn">
+
+                Start Your Project
+
+            </a>
+
+        </div>
+
+    </div>
+
+
+    </div>
+
+</div>
+</section>
+
+<!-- =======================================================
+FOOTER
+======================================================= -->
 
 <footer>
 
-<p>
+    <h3>
 
-Built by
+        TORQUEBYTEE
 
-<strong>Shareyar & Team TorqueBytee</strong>
+    </h3>
 
-</p>
+    <p>
+
+        Building premium digital experiences.
+
+    </p>
+
+    <p>
+
+        Designed & Developed by <strong>Shareyar</strong>
+
+    </p>
+
+    <div class="footer-links">
+
+        <a href="mailto:kavindurairaj06@gmail.com">
+
+            Email
+
+        </a>
+
+    </div>
+
+    <span>
+
+        © 2026 TORQUEBYTEE. All Rights Reserved.
+
+    </span>
 
 </footer>
 
-</div>
+<!-- =======================================================
+SCRIPTS
+======================================================= -->
 
-</section>
-
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 
 <script src="script.js"></script>
 

@@ -1,28 +1,63 @@
+/* ==========================================================
+   TORQUEBYTEE
+   LIFE DASHBOARD V2
+========================================================== */
+
+/* ==========================================================
+LOAD BIRTH DATA
+========================================================== */
+
 let birthFacts = {};
+
 fetch("birth-data.json")
-.then(response => response.json())
+.then(res => res.json())
 .then(data => {
 
     birthFacts = data;
 
+})
+.catch(err=>{
+
+    console.error("Birth data could not be loaded.",err);
+
 });
-function animateValue(id, endValue, duration = 1200) {
 
-    const element = document.getElementById(id);
+/* ==========================================================
+DOM ELEMENTS
+========================================================== */
 
-    const startValue = 0;
+const dobInput =
+document.getElementById("dob");
 
-    const startTime = performance.now();
+const calculateBtn =
+document.getElementById("calculate");
 
-    function update(currentTime) {
+const results =
+document.getElementById("results");
 
-        const progress = Math.min((currentTime - startTime) / duration, 1);
+/* ==========================================================
+NUMBER ANIMATION
+========================================================== */
 
-        const currentValue = Math.floor(progress * endValue);
+function animateValue(id,value,duration=1200){
 
-        element.textContent = currentValue.toLocaleString();
+    const element=document.getElementById(id);
 
-        if (progress < 1) {
+    if(!element) return;
+
+    const start=performance.now();
+
+    function update(time){
+
+        const progress=Math.min(
+            (time-start)/duration,
+            1
+        );
+
+        element.textContent=
+        Math.floor(progress*value).toLocaleString();
+
+        if(progress<1){
 
             requestAnimationFrame(update);
 
@@ -33,209 +68,540 @@ function animateValue(id, endValue, duration = 1200) {
     requestAnimationFrame(update);
 
 }
+
+/* ==========================================================
+CARD REVEAL
+========================================================== */
+
 function revealCards(){
 
-    const cards = document.querySelectorAll(
-        ".card, .small-card, .stat-card"
+    const cards=document.querySelectorAll(
+
+        ".card,.small-card,.stat-card,.capsule-card,.world-card,.community-card"
+
     );
 
-    // Remove previous animation
-    cards.forEach(card => card.classList.remove("show"));
+    cards.forEach(card=>{
 
-    // Replay animation
-    cards.forEach((card, index) => {
+        card.classList.remove("show");
 
-        setTimeout(() => {
+    });
+
+    cards.forEach((card,index)=>{
+
+        setTimeout(()=>{
 
             card.classList.add("show");
 
-        }, index * 150);
+        },index*90);
 
     });
 
 }
-const button = document.getElementById("calculate");
 
-button.addEventListener("click", calculateAge);
+/* ==========================================================
+HELPERS
+========================================================== */
 
+function setText(id,value){
+
+    const el=document.getElementById(id);
+
+    if(el){
+
+        el.textContent=value;
+
+    }
+
+}
+
+function showResults(){
+
+    results.style.display="block";
+
+    results.scrollIntoView({
+
+        behavior:"smooth"
+
+    });
+
+    revealCards();
+
+}
+
+/* ==========================================================
+BUTTON
+========================================================== */
+
+calculateBtn.addEventListener(
+
+    "click",
+
+    calculateAge
+
+);
+/* ==========================================================
+AGE CALCULATION
+========================================================== */
 
 function calculateAge(){
 
-    const dob = document.getElementById("dob").value;
+    const dob = dobInput.value;
 
-    if (dob === "") {
+    if(!dob){
+
         alert("Please select your birthday.");
+
         return;
+
     }
 
     const birthDate = new Date(dob);
-    const birthYear = birthDate.getFullYear();
 
-const info = birthFacts[birthYear];
+    const today = new Date();
 
-if(info){
+    /* ==========================
+       CURRENT AGE
+    ========================== */
 
-    document.getElementById("birthPopulation").textContent =
-    info.population;
+    let years =
+    today.getFullYear() -
+    birthDate.getFullYear();
 
-    const currentPopulation = 8.2;
+    let months =
+    today.getMonth() -
+    birthDate.getMonth();
 
-    const birthPopulation = parseFloat(info.population);
+    let days =
+    today.getDate() -
+    birthDate.getDate();
 
-    const increase =
-    (currentPopulation - birthPopulation).toFixed(2);
+    if(days < 0){
 
-    document.getElementById("populationGrowth").textContent =
-    increase + " Billion";
+        months--;
 
-    document.getElementById("movie").textContent = info.movie;
-    document.getElementById("song").textContent = info.song;
-    document.getElementById("phone").textContent = info.phone;
-    document.getElementById("car").textContent = info.car;
-    document.getElementById("game").textContent = info.game;
-    document.getElementById("console").textContent = info.console;
-    document.getElementById("os").textContent = info.os;
-    document.getElementById("population").textContent = info.population;
-    document.getElementById("technology").textContent = info.technology;
+        const previousMonth = new Date(
 
-    const list = document.getElementById("generationList");
+            today.getFullYear(),
 
-    list.innerHTML = "";
+            today.getMonth(),
+
+            0
+
+        );
+
+        days += previousMonth.getDate();
+
+    }
+
+    if(months < 0){
+
+        years--;
+
+        months += 12;
+
+    }
+
+    document.getElementById("age").innerHTML =
+
+        `${years} Years<br>${months} Months<br>${days} Days`;
+
+    /* ==========================
+       TOTAL DAYS ALIVE
+    ========================== */
+
+    const difference =
+
+    today - birthDate;
+
+    const totalDays = Math.floor(
+
+        difference /
+
+        (1000*60*60*24)
+
+    );
+
+    animateValue(
+
+        "days",
+
+        totalDays
+
+    );
+
+    /* ==========================
+       NEXT BIRTHDAY
+    ========================== */
+
+    const nextBirthday = new Date(
+
+        today.getFullYear(),
+
+        birthDate.getMonth(),
+
+        birthDate.getDate()
+
+    );
+
+    if(nextBirthday < today){
+
+        nextBirthday.setFullYear(
+
+            today.getFullYear()+1
+
+        );
+
+    }
+
+    const birthdayCountdown = Math.ceil(
+
+        (nextBirthday - today) /
+
+        (1000*60*60*24)
+
+    );
+
+    setText(
+
+        "birthday",
+
+        birthdayCountdown + " Days"
+
+    );
+
+    /* ==========================
+       LIFE JOURNEY
+    ========================== */
+
+    animateValue(
+
+        "sunrises",
+
+        totalDays
+
+    );
+
+    animateValue(
+
+        "heartbeats",
+
+        Math.round(
+
+            totalDays *
+
+            24 *
+
+            60 *
+
+            70
+
+        )
+
+    );
+
+    animateValue(
+
+        "breaths",
+
+        Math.round(
+
+            totalDays *
+
+            24 *
+
+            60 *
+
+            16
+
+        )
+
+    );
+
+    animateValue(
+
+        "earthTrips",
+
+        years
+
+    );
+
+    animateValue(
+
+        "moons",
+
+        Math.floor(
+
+            totalDays /
+
+            29.53
+
+        )
+
+    );
+
+    animateValue(
+
+        "birthdays",
+
+        years
+
+    );
+
+    /* ==========================
+       LOAD BIRTH FACTS
+    ========================== */
+
+    loadBirthFacts(
+
+        birthDate.getFullYear()
+
+    );
+
+    /* ==========================
+       SHOW RESULTS
+    ========================== */
+
+    showResults();
+
+}
+/* ==========================================================
+TIME CAPSULE
+========================================================== */
+
+function loadBirthFacts(year){
+
+    const info = birthFacts[year];
+
+    const fields = [
+
+        "movie",
+        "song",
+        "phone",
+        "car",
+        "game",
+        "console",
+        "os",
+        "population",
+        "technology"
+
+    ];
+
+    /* ==========================
+       NO DATA AVAILABLE
+    ========================== */
+
+    if(!info){
+
+        fields.forEach(field=>{
+
+            setText(field,"Coming Soon");
+
+        });
+
+        setText(
+
+            "birthPopulation",
+
+            "Coming Soon"
+
+        );
+
+        setText(
+
+            "populationGrowth",
+
+            "Coming Soon"
+
+        );
+
+        document.getElementById(
+
+            "generationList"
+
+        ).innerHTML=
+
+        "<li>Historical data is being added.</li>";
+
+        return;
+
+    }
+
+    /* ==========================
+       CAPSULE DATA
+    ========================== */
+
+    fields.forEach(field=>{
+
+        setText(
+
+            field,
+
+            info[field]
+
+        );
+
+    });
+
+    /* ==========================
+       WORLD SNAPSHOT
+    ========================== */
+
+    setText(
+
+        "birthPopulation",
+
+        info.population
+
+    );
+
+    const todayPopulation = 8.2;
+
+    const increase = (
+
+        todayPopulation -
+
+        parseFloat(info.population)
+
+    ).toFixed(2);
+
+    setText(
+
+        "populationGrowth",
+
+        increase + " Billion"
+
+    );
+
+    /* ==========================
+       GENERATION LIST
+    ========================== */
+
+    const generationList =
+
+    document.getElementById(
+
+        "generationList"
+
+    );
+
+    generationList.innerHTML="";
 
     if(info.generation){
 
         info.generation.forEach(item=>{
 
-            list.innerHTML += `<li>${item}</li>`;
+            generationList.innerHTML+=
+
+            `<li>${item}</li>`;
 
         });
 
+    }else{
+
+        generationList.innerHTML=
+
+        "<li>Coming Soon</li>";
+
     }
 
-}else{
-
-    document.getElementById("birthPopulation").textContent =
-    "Coming Soon";
-
-    document.getElementById("populationGrowth").textContent =
-    "Coming Soon";
-
-    document.getElementById("movie").textContent = "Coming Soon";
-    document.getElementById("song").textContent = "Coming Soon";
-    document.getElementById("phone").textContent = "Coming Soon";
-    document.getElementById("car").textContent = "Coming Soon";
-    document.getElementById("game").textContent = "Coming Soon";
-    document.getElementById("console").textContent = "Coming Soon";
-    document.getElementById("os").textContent = "Coming Soon";
-    document.getElementById("population").textContent = "Coming Soon";
-    document.getElementById("technology").textContent =
-    "Historical data is being added.";
-
-    document.getElementById("generationList").innerHTML =
-    "<li>Generation information coming soon.</li>";
-
 }
+/* ==========================================================
+DOWNLOAD DASHBOARD
+========================================================== */
 
 
-    const today = new Date();
+/* ==========================================================
+TORQUEBYTEE
+UTILITY FUNCTIONS
+========================================================== */
 
-    let years = today.getFullYear() - birthDate.getFullYear();
-    let months = today.getMonth() - birthDate.getMonth();
-    let days = today.getDate() - birthDate.getDate();
+/* --------------------------
+Current Year
+-------------------------- */
 
-    if (days < 0) {
-        months--;
+document.querySelectorAll(".currentYear").forEach(el=>{
 
-        const previousMonth = new Date(
-            today.getFullYear(),
-            today.getMonth(),
-            0
+    el.textContent = new Date().getFullYear();
+
+});
+
+/* --------------------------
+Enter Key Support
+-------------------------- */
+
+dobInput.addEventListener("keypress",(e)=>{
+
+    if(e.key==="Enter"){
+
+        calculateAge();
+
+    }
+
+});
+
+/* --------------------------
+Future Date Protection
+-------------------------- */
+
+const todayDate = new Date()
+.toISOString()
+.split("T")[0];
+
+dobInput.setAttribute(
+    "max",
+    todayDate
+);
+
+/* --------------------------
+Image Loading Safety
+-------------------------- */
+
+window.addEventListener("load",()=>{
+
+    console.log(
+
+        "✅ TorqueBytee Life Dashboard Loaded."
+
+    );
+
+});
+
+/* --------------------------
+JSON Loading Check
+-------------------------- */
+
+calculateBtn.addEventListener("click",()=>{
+
+    if(Object.keys(birthFacts).length===0){
+
+        console.warn(
+
+            "Birth data still loading..."
+
         );
 
-        days += previousMonth.getDate();
     }
 
-    if (months < 0) {
-        years--;
-        months += 12;
-    }
+});
 
-    // Current Age
-    document.getElementById("age").innerHTML =
-        `${years} Years<br>${months} Months<br>${days} Days`;
+/* --------------------------
+Developer Signature
+-------------------------- */
 
-    // Total Days Alive
-    const difference = today - birthDate;
-    const totalDays = Math.floor(difference / (1000 * 60 * 60 * 24));
+console.log(`
 
-    animateValue("days", totalDays);
+████████╗ ██████╗ ██████╗  ██████╗ ██╗   ██╗███████╗
+╚══██╔══╝██╔═══██╗██╔══██╗██╔═══██╗██║   ██║██╔════╝
+   ██║   ██║   ██║██████╔╝██║   ██║██║   ██║█████╗
+   ██║   ██║   ██║██╔══██╗██║▄▄ ██║██║   ██║██╔══╝
+   ██║   ╚██████╔╝██║  ██║╚██████╔╝╚██████╔╝███████╗
+   ╚═╝    ╚═════╝ ╚═╝  ╚═╝ ╚══▀▀═╝  ╚═════╝ ╚══════╝
 
-    // Birthday Countdown
-    const nextBirthday = new Date(
-        today.getFullYear(),
-        birthDate.getMonth(),
-        birthDate.getDate()
-    );
+Life Dashboard V2
 
-    if (nextBirthday < today) {
-        nextBirthday.setFullYear(today.getFullYear() + 1);
-    }
+Powered by TORQUEBYTEE
 
-    const countdown = Math.ceil(
-        (nextBirthday - today) / (1000 * 60 * 60 * 24)
-    );
+Developed by Shareyar
 
-    document.getElementById("birthday").textContent =
-        countdown + " Days";
-
-    // ==========================
-    // LIFE JOURNEY
-    // ==========================
-
-    // Sunrises Seen
-    animateValue("sunrises", totalDays);
-
-    // Estimated Heartbeats
-    animateValue(
-    "heartbeats",
-    Math.round(totalDays * 24 * 60 * 70)
-);
-    // Estimated Breaths
-    animateValue(
-    "breaths",
-    Math.round(totalDays * 24 * 60 * 16)
-);
-
-    // Trips Around the Sun
-    animateValue("earthTrips", years);
-
-    // Full Moons Witnessed
-    animateValue(
-    "moons",
-    Math.floor(totalDays / 29.53)
-);
-    // Birthdays Celebrated
-    animateValue("birthdays", years);
-
-    // ==========================
-    // SHOW RESULTS
-    // ==========================
-
-    document.getElementById("results").style.display = "block";
-
-    document.getElementById("results").scrollIntoView({
-        behavior: "smooth"
-    });
-revealCards();
-}
-const downloadBtn = document.getElementById("downloadCard");
-
-if(downloadBtn){
-
-    downloadBtn.addEventListener("click",()=>{
-
-        alert("🚀 Share Card Export is coming in Life Dashboard V2.5!");
-
-    });
-
-}
+`);
