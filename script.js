@@ -59,7 +59,7 @@ const button = document.getElementById("calculate");
 button.addEventListener("click", calculateAge);
 
 
-function calculateAge() {
+function calculateAge(){
 
     const dob = document.getElementById("dob").value;
 
@@ -72,68 +72,71 @@ function calculateAge() {
     const birthYear = birthDate.getFullYear();
 
 const info = birthFacts[birthYear];
-document.getElementById("birthPopulation").textContent =
-info.population;
-const currentPopulation = 8.2;
-
-const birthPopulation =
-parseFloat(info.population);
-
-const increase =
-(currentPopulation - birthPopulation).toFixed(2);
-
-document.getElementById("populationGrowth").textContent =
-increase + " Billion";
 
 if(info){
 
-document.getElementById("movie").textContent = info.movie;
-document.getElementById("song").textContent = info.song;
-document.getElementById("phone").textContent = info.phone;
-document.getElementById("car").textContent = info.car;
-document.getElementById("game").textContent = info.game;
-document.getElementById("console").textContent = info.console;
-document.getElementById("os").textContent = info.os;
-document.getElementById("population").textContent = info.population;
-document.getElementById("technology").textContent = info.technology;
-const list = document.getElementById("generationList");
+    document.getElementById("birthPopulation").textContent =
+    info.population;
 
-list.innerHTML = "";
+    const currentPopulation = 8.2;
 
-if(info.generation){
+    const birthPopulation = parseFloat(info.population);
 
-    info.generation.forEach(item=>{
+    const increase =
+    (currentPopulation - birthPopulation).toFixed(2);
 
-        list.innerHTML += `<li>${item}</li>`;
+    document.getElementById("populationGrowth").textContent =
+    increase + " Billion";
 
-    });
+    document.getElementById("movie").textContent = info.movie;
+    document.getElementById("song").textContent = info.song;
+    document.getElementById("phone").textContent = info.phone;
+    document.getElementById("car").textContent = info.car;
+    document.getElementById("game").textContent = info.game;
+    document.getElementById("console").textContent = info.console;
+    document.getElementById("os").textContent = info.os;
+    document.getElementById("population").textContent = info.population;
+    document.getElementById("technology").textContent = info.technology;
 
-}
+    const list = document.getElementById("generationList");
+
+    list.innerHTML = "";
+
+    if(info.generation){
+
+        info.generation.forEach(item=>{
+
+            list.innerHTML += `<li>${item}</li>`;
+
+        });
+
+    }
 
 }else{
 
-const ids = [
+    document.getElementById("birthPopulation").textContent =
+    "Coming Soon";
 
-"movie",
-"song",
-"phone",
-"car",
-"game",
-"console",
-"os",
-"population",
-"technology",
-"generationList"
+    document.getElementById("populationGrowth").textContent =
+    "Coming Soon";
 
-];
+    document.getElementById("movie").textContent = "Coming Soon";
+    document.getElementById("song").textContent = "Coming Soon";
+    document.getElementById("phone").textContent = "Coming Soon";
+    document.getElementById("car").textContent = "Coming Soon";
+    document.getElementById("game").textContent = "Coming Soon";
+    document.getElementById("console").textContent = "Coming Soon";
+    document.getElementById("os").textContent = "Coming Soon";
+    document.getElementById("population").textContent = "Coming Soon";
+    document.getElementById("technology").textContent =
+    "Historical data is being added.";
 
-ids.forEach(id=>{
-
-document.getElementById(id).textContent="Coming Soon";
-
-});
+    document.getElementById("generationList").innerHTML =
+    "<li>Generation information coming soon.</li>";
 
 }
+
+
     const today = new Date();
 
     let years = today.getFullYear() - birthDate.getFullYear();
@@ -225,11 +228,14 @@ document.getElementById(id).textContent="Coming Soon";
     });
 revealCards();
 }
-document.getElementById("downloadCard")
-.addEventListener("click",()=>{
+const downloadBtn = document.getElementById("downloadCard");
 
-    alert(
-"🚀 Share Card Export is coming in Life Dashboard V2.5!"
-    );
+if(downloadBtn){
 
-});
+    downloadBtn.addEventListener("click",()=>{
+
+        alert("🚀 Share Card Export is coming in Life Dashboard V2.5!");
+
+    });
+
+}
